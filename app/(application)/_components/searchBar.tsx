@@ -54,7 +54,7 @@ export default function SearchBar() {
                 value={location}
                 onChange={(e) => setLocation(e.target.value)}
                 placeholder="City or address"
-                className="h-auto border-0 p-0 text-sm text-foreground shadow-none placeholder:text-muted-foreground/60 focus-visible:ring-0"
+                className="h-auto border-0 p-0 text-sm text-foreground shadow-none placeholder:text-muted-foreground/60 focus-visible:ring-0 dark:bg-transparent"
               />
             </div>
           </div>
@@ -63,11 +63,11 @@ export default function SearchBar() {
           <div className="flex items-center gap-3 px-5 py-4">
             <Home className="h-4 w-4 shrink-0 text-accent" />
             <div className="min-w-0 flex-1">
-              <label className="block text-[10px] font-semibold uppercase tracking-[0.15em] text-muted-foreground">
+              <label className="px-2 block text-[10px] font-semibold uppercase tracking-[0.15em] text-muted-foreground">
                 Property Type
               </label>
               <Select value={propertyType} onValueChange={setPropertyType}>
-                <SelectTrigger className="h-auto w-full border-0 p-0 text-sm text-foreground shadow-none focus-visible:ring-0 [&>svg]:opacity-50">
+                <SelectTrigger className="h-auto w-full border-0 text-sm text-foreground shadow-none focus-visible:ring-0 [&>svg]:opacity-50 dark:bg-transparent hover:dark:bg-transparent hover:cursor-pointer">
                   <SelectValue placeholder="Any type" />
                 </SelectTrigger>
                 <SelectContent>
@@ -85,11 +85,11 @@ export default function SearchBar() {
           <div className="flex items-center gap-3 px-5 py-4">
             <Wallet className="h-4 w-4 shrink-0 text-accent" />
             <div className="min-w-0 flex-1">
-              <label className="block text-[10px] font-semibold uppercase tracking-[0.15em] text-muted-foreground">
+              <label className="px-2 block text-[10px] font-semibold uppercase tracking-[0.15em] text-muted-foreground">
                 Price Range
               </label>
               <Select value={priceRange} onValueChange={setPriceRange}>
-                <SelectTrigger className="h-auto w-full border-0 p-0 text-sm text-foreground shadow-none focus-visible:ring-0 [&>svg]:opacity-50">
+                <SelectTrigger className="h-auto w-full border-0 text-sm text-foreground shadow-none focus-visible:ring-0 [&>svg]:opacity-50 dark:bg-transparent hover:dark:bg-transparent hover:cursor-pointer">
                   <SelectValue placeholder="Any price" />
                 </SelectTrigger>
                 <SelectContent>
@@ -107,11 +107,11 @@ export default function SearchBar() {
           <div className="flex items-center gap-3 px-5 py-4">
             <BedDouble className="h-4 w-4 shrink-0 text-accent" />
             <div className="min-w-0 flex-1">
-              <label className="block text-[10px] font-semibold uppercase tracking-[0.15em] text-muted-foreground">
+              <label className="px-2 block text-[10px] font-semibold uppercase tracking-[0.15em] text-muted-foreground">
                 Beds
               </label>
               <Select value={beds} onValueChange={setBeds}>
-                <SelectTrigger className="h-auto w-full border-0 p-0 text-sm text-foreground shadow-none focus-visible:ring-0 [&>svg]:opacity-50">
+                <SelectTrigger className="h-auto w-full border-0 text-sm text-foreground shadow-none focus-visible:ring-0 [&>svg]:opacity-50 dark:bg-transparent hover:dark:bg-transparent hover:cursor-pointer">
                   <SelectValue placeholder="Any" />
                 </SelectTrigger>
                 <SelectContent>

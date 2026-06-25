@@ -14,13 +14,6 @@ const socialLinks = [
   { label: "Facebook", href: "https://facebook.com" },
 ];
 
-const hours = [
-  { day: "Zondag & maandag", time: "Gesloten" },
-  { day: "Dinsdag t/m donderdag", time: "09:30 – 17:30" },
-  { day: "Vrijdag", time: "09:30 – 21:00" },
-  { day: "Zaterdag", time: "09:00 – 16:30" },
-];
-
 export function Footer() {
   return (
     <footer className="bg-background text-foreground">

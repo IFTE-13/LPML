@@ -69,11 +69,11 @@ export default function AwardsRecognition() {
               variants={fadeItem}
               className="flex flex-col gap-3 py-7 sm:flex-row sm:items-center sm:gap-8"
             >
-              <div className="flex h-10 w-10 flex-shrink-0 items-center justify-center border border-accent/30">
+              <div className="flex h-10 w-10 shrink-0 items-center justify-center border border-accent/30">
                 <Award className="h-4 w-4 text-accent" strokeWidth={1.5} />
               </div>
 
-              <p className="w-16 flex-shrink-0 font-mono text-sm tracking-tight text-muted-foreground">
+              <p className="w-16 shrink-0 font-mono text-sm tracking-tight text-muted-foreground">
                 {item.year}
               </p>
 

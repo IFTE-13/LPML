@@ -64,7 +64,7 @@ export default function OngoingProjects() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="group relative min-h-[600px] overflow-hidden rounded-xl"
+            className="group relative min-h-150 overflow-hidden rounded-xl"
           >
             <Image
               src={projects[0].image}
@@ -73,7 +73,7 @@ export default function OngoingProjects() {
               className="object-cover transition duration-700 group-hover:scale-105"
             />
 
-            <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
+            <div className="absolute inset-0 bg-linear-to-t from-black via-black/20 to-transparent" />
 
             <div className="absolute left-8 top-8">
               <span className="rounded-full bg-white/15 px-4 py-2 text-sm text-white backdrop-blur-md">
@@ -106,7 +106,7 @@ export default function OngoingProjects() {
                 whileInView={{ opacity: 1, x: 0 }}
                 transition={{ delay: index * 0.15 }}
                 viewport={{ once: true }}
-                className="group relative min-h-[290px] overflow-hidden rounded-xl"
+                className="group relative min-h-72.5 overflow-hidden rounded-xl"
               >
                 <Image
                   src={project.image}
@@ -115,7 +115,7 @@ export default function OngoingProjects() {
                   className="object-cover transition duration-700 group-hover:scale-105"
                 />
 
-                <div className="absolute inset-0 bg-gradient-to-t from-black via-black/20 to-transparent" />
+                <div className="absolute inset-0 bg-linear-to-t from-black via-black/20 to-transparent" />
 
                 <div className="absolute left-5 top-5">
                   <span className="rounded-full bg-white/15 px-3 py-1 text-xs text-white backdrop-blur-md">

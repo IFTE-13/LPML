@@ -31,7 +31,6 @@ export default function OurWhy() {
     <section className="bg-background py-24 lg:py-32">
       <div className="mx-auto container px-6 lg:px-12">
         <div className="grid gap-16 lg:grid-cols-5 lg:gap-12">
-          {/* Origin story - takes 2 columns */}
           <div className="lg:col-span-2">
             <p className="mb-4 flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.3em] text-accent">
               <span className="h-px w-8 bg-accent" />

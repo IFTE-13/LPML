@@ -74,7 +74,7 @@ export default function TeamOverview() {
         >
           {team.map((member) => (
             <motion.div key={member.name} variants={fadeItem}>
-              <div className="relative aspect-[3/4] overflow-hidden bg-card">
+              <div className="relative aspect-3/4 overflow-hidden bg-card">
                 <Image
                   src={member.photo}
                   alt={member.name}

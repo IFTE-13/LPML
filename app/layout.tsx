@@ -1,7 +1,6 @@
 import "@/app/globals.css";
 import type { Metadata } from "next";
 import { Inter_Tight, Fraunces } from "next/font/google"
-import { Navbar } from "@/components/app/shared/navbar"
 import { ThemeProvider } from "@/providers/theme-provider"
 
 const interTight = Inter_Tight({

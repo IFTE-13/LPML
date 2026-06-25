@@ -1,23 +1,25 @@
-"use client"
+"use client";
 
-import { motion, AnimatePresence } from "motion/react"
-import { Moon, Sun, Sunrise, Sunset } from "lucide-react"
-import { useTheme } from "next-themes"
-import { useEffect, useState } from "react"
+import { motion, AnimatePresence } from "motion/react";
+import { Moon, Sun } from "lucide-react";
+import { useTheme } from "next-themes";
+import { useSyncExternalStore } from "react";
+import { Button } from "@/components/ui/button";
 
-import { Button } from "@/components/ui/button"
+const emptySubscribe = () => () => {};
 
 export function ThemeSwitcher() {
-  const { resolvedTheme, setTheme } = useTheme()
-  const [mounted, setMounted] = useState(false)
+  const { resolvedTheme, setTheme } = useTheme();
 
-  useEffect(() => {
-    setMounted(true)
-  }, [])
+  const mounted = useSyncExternalStore(
+    emptySubscribe,
+    () => true, // client snapshot
+    () => false // server snapshot
+  );
 
-  if (!mounted) return null
+  if (!mounted) return null;
 
-  const isDark = resolvedTheme === "dark"
+  const isDark = resolvedTheme === "dark";
 
   return (
     <Button
@@ -29,32 +31,14 @@ export function ThemeSwitcher() {
       <AnimatePresence mode="wait">
         <motion.div
           key={resolvedTheme}
-          initial={{
-            opacity: 0,
-            rotate: -90,
-            scale: 0.5,
-          }}
-          animate={{
-            opacity: 1,
-            rotate: 0,
-            scale: 1,
-          }}
-          exit={{
-            opacity: 0,
-            rotate: 90,
-            scale: 0.5,
-          }}
-          transition={{
-            duration: 0.2,
-          }}
+          initial={{ opacity: 0, rotate: -90, scale: 0.5 }}
+          animate={{ opacity: 1, rotate: 0, scale: 1 }}
+          exit={{ opacity: 0, rotate: 90, scale: 0.5 }}
+          transition={{ duration: 0.2 }}
         >
-          {isDark ? (
-            <Sun className="h-5 w-5" />
-          ) : (
-            <Moon className="h-5 w-5" />
-          )}
+          {isDark ? <Sun className="h-5 w-5" /> : <Moon className="h-5 w-5" />}
         </motion.div>
       </AnimatePresence>
     </Button>
-  )
+  );
 }
