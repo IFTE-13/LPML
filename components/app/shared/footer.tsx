@@ -18,7 +18,7 @@ export function Footer() {
   return (
     <footer className="bg-background text-foreground">
 
-      <div className="mx-auto container px-6 py-12 md:px-10">
+      <div className="mx-auto container px-6 pb-12 pt-24 md:px-10">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12 md:gap-8">
           {/* wordmark + nav + social */}
           <div className="md:col-span-7">

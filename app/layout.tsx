@@ -19,7 +19,10 @@ const fraunces = Fraunces({
 })
 
 export const metadata: Metadata = {
-  title: "Dimora Property Management",
+  title: {
+    default: "Dimora Property Management Limited",
+    template: "%s | DPML",
+  },
   description: "Residential and commercial property management.",
 }
 
