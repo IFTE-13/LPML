@@ -24,7 +24,7 @@ export function ThemeSwitcher() {
       variant="outline"
       size="icon"
       onClick={() => setTheme(isDark ? "light" : "dark")}
-      className="relative overflow-hidden"
+      className="relative overflow-hidden hover:cursor-pointer"
     >
       <AnimatePresence mode="wait">
         <motion.div

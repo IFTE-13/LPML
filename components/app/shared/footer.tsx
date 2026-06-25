@@ -2,10 +2,10 @@ import Link from "next/link";
 import { Separator } from "@/components/ui/separator";
 
 const navLinks = [
-  { label: "Over ons", href: "/over-ons" },
-  { label: "Woningen", href: "/woningen" },
-  { label: "Taxaties", href: "/taxaties" },
-  { label: "Blog", href: "/blog" },
+  { label: "About", href: "/about" },
+  { label: "Projects", href: "/projects" },
+  { label: "Career", href: "/career" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const socialLinks = [
@@ -24,9 +24,8 @@ const hours = [
 export function Footer() {
   return (
     <footer className="bg-background text-foreground">
-      <Separator className="bg-border" />
 
-      <div className="mx-auto container px-6 py-16 md:px-10 lg:py-20">
+      <div className="mx-auto container px-6 py-12 md:px-10">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-12 md:gap-8">
           {/* wordmark + nav + social */}
           <div className="md:col-span-7">
@@ -85,32 +84,34 @@ export function Footer() {
                 <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent">
                   Contact
                 </p>
-                <p className="mt-5 font-mono text-sm tracking-tight text-muted-foreground">
+                <p className="mt-5 text-sm tracking-tight text-muted-foreground">
                   <Link href="tel:+31301234567" className="transition-colors hover:text-foreground">
-                    030 123 45 67
+                    (+880) 1842 117 912
                   </Link>
                 </p>
-                <p className="font-mono text-sm tracking-tight text-muted-foreground">
-                  <Link href="mailto:info@dimora.nl" className="transition-colors hover:text-foreground">
-                    info@dimora.nl
+                <p className="text-sm tracking-tight text-muted-foreground">
+                  <Link href="mailto:dimora.pml@gmail.com" className="transition-colors hover:text-foreground">
+                    dimora.pml@gmail.com
                   </Link>
                 </p>
               </div>
 
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent md:text-right">
-                  Adres
+                  Address
                 </p>
-                <p className="mt-5 font-mono text-sm leading-relaxed tracking-tight text-muted-foreground md:text-right">
+                <p className="mt-5 text-sm leading-relaxed tracking-tight text-muted-foreground md:text-right">
                   <Link
                     href="https://maps.google.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="transition-colors hover:text-foreground"
                   >
-                    Herenstraat 14
+                    13/A SS Khaled Road (B1-L4)
                     <br />
-                    3512 KB, Utrecht
+                    Kazir Dewri
+                    <br />
+                    Chattogram-4000
                   </Link>
                 </p>
               </div>
@@ -119,18 +120,10 @@ export function Footer() {
             {/* opening hours */}
             <div className="mt-10 md:mt-12">
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent md:text-right">
-                Openingstijden
+                Why DIMORA?
               </p>
-              <dl className="mt-5 space-y-1.5">
-                {hours.map((row) => (
-                  <div
-                    key={row.day}
-                    className="flex justify-between gap-6 font-mono text-sm tracking-tight text-muted-foreground"
-                  >
-                    <dt>{row.day}</dt>
-                    <dd className="text-foreground">{row.time}</dd>
-                  </div>
-                ))}
+              <dl className="mt-5 md:ml-auto space-y-1.5 w-3/4 text-justify">
+                Two decades of stewardship across residential and commercial portfolios — built on transparency, responsive management, and a long-term view of every property we touch.
               </dl>
             </div>
           </div>
@@ -139,13 +132,14 @@ export function Footer() {
         <Separator className="my-12 bg-border" />
 
         <div className="flex flex-col gap-4 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
-          <p>© {new Date().getFullYear()} Dimora. Alle rechten voorbehouden.</p>
+          <p>Made by Mohammed Iftekhar</p>
+          <p>© {new Date().getFullYear()} Dimora. All rights reserved</p>
           <div className="flex gap-6">
             <Link href="/privacybeleid" className="transition-colors hover:text-foreground">
-              Privacybeleid
+              Privacy Policies
             </Link>
             <Link href="/algemene-voorwaarden" className="transition-colors hover:text-foreground">
-              Algemene voorwaarden
+              Terms & Conditions
             </Link>
           </div>
         </div>

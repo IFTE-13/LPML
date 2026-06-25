@@ -29,12 +29,12 @@ interface SocialLink {
 }
 
 const navItems: NavItem[] = [
-  { label: "Platform", href: "#" },
-  { label: "Pricing", href: "#" },
-  { label: "Resources", href: "#" },
-  { label: "About", href: "#" },
-  { label: "Blog", href: "#" },
-  { label: "Handbooks", href: "#" },
+  { label: "About", href: "/about" },
+  { label: "Projects", href: "#/projects" },
+  { label: "Gallery", href: "/gallery" },
+  { label: "Career", href: "/career" },
+  { label: "Connect", href: "/connect" },
+  { label: "Contact", href: "/contact" },
 ];
 
 const socialLinks: SocialLink[] = [
@@ -75,16 +75,16 @@ export function Navbar() {
       >
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5">
-  <DimoraIcon className="h-9 w-auto sm:h-10" />
-  <div className="flex flex-col justify-center leading-none">
-    <span className="text-xl font-bold tracking-tight text-foreground sm:text-2xl">
-      DIMORA
-    </span>
-    <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground sm:text-[11px] sm:tracking-[0.25em]">
-      Property Management<span className="hidden sm:inline"> Limited</span>
-    </span>
-  </div>
-</Link>
+          <DimoraIcon className="h-9 w-auto sm:h-10" />
+          <div className="flex flex-col justify-center leading-none">
+            <span className="text-xl font-bold tracking-tight text-foreground sm:text-2xl">
+              DIMORA
+            </span>
+            <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground sm:text-[11px] sm:tracking-[0.25em]">
+              Property Management<span className="hidden sm:inline"> Limited</span>
+            </span>
+          </div>
+        </Link>
 
         {/* Desktop Navigation */}
         <nav className="hidden items-center gap-1 md:flex">
