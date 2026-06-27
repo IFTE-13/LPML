@@ -1,4 +1,4 @@
-import type { JobOpening } from "./types";
+import type { JobOpening } from "../../../lib/types/career";
 
 export const openings: JobOpening[] = [
   {

@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import { ArrowUpRight, ChevronDown } from "lucide-react";
-import type { JobOpening } from "../types";
+import type { JobOpening } from "../../../../lib/types/career";
 
 export function CareersAccordion({
   openings,

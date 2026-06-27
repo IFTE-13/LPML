@@ -3,7 +3,7 @@
 import { motion } from "motion/react";
 import Image from "next/image";
 import { Mail } from "lucide-react";
-import type { Department } from "../types";
+import type { Department } from "../../../../lib/types/team";
 import { RiLinkedinLine } from "react-icons/ri";
 
 export function DepartmentSection({

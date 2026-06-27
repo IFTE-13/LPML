@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
 import Image from "next/image";
 import { Mail } from "lucide-react";
-import type { LeadershipMember } from "../types";
+import type { LeadershipMember } from "../../../../lib/types/team";
 import { RiLinkedinLine } from "react-icons/ri";
 
 export function LeadershipSpotlight({

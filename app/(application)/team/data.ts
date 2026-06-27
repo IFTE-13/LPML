@@ -1,4 +1,4 @@
-import type { LeadershipMember, Department } from "./types";
+import type { LeadershipMember, Department } from "../../../lib/types/team";
 
 import one from "@/assets/1.jpg";
 import two from "@/assets/2.jpg";
