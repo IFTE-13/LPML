@@ -1,10 +1,10 @@
 
 import { Metadata } from "next";
-import { JoinTeamCta } from "./_components/cta";
-import { TeamHero } from "./_components/hero";
 import { LeadershipSpotlight } from "./_components/leadership";
 import { DepartmentSection } from "./_components/team";
 import { leadership, departments } from "./data";
+import { PageHero } from "@/components/app/page-hero";
+import { CallToAction } from "@/components/app/call-to-action";
 
 
 export const metadata: Metadata = {
@@ -14,7 +14,11 @@ export const metadata: Metadata = {
 export default function TeamPage() {
   return (
     <>
-      <TeamHero />
+      <PageHero
+        badge="Our Team"
+        title="The people behind every property"
+        description="From valuations to tenant relations, every member of our team brings a specific kind of care to the work of stewardship."
+      />
       <LeadershipSpotlight leadership={leadership} />
 
       <section className="bg-background py-16">
@@ -40,7 +44,16 @@ export default function TeamPage() {
         </div>
       </section>
 
-      <JoinTeamCta />
+      <CallToAction
+        title="Join our team"
+        description="We're always looking for passionate individuals who share our commitment to excellence in property stewardship."
+        buttons={[
+          {
+            label: "View open positions",
+            href: "/careers",
+          },
+        ]}
+      />
     </>
   );
 }

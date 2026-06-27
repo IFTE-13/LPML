@@ -1,6 +1,6 @@
 
+import { CallToAction } from "@/components/app/call-to-action";
 import BlogPreview from "./_components/blogPreview";
-import CTA from "./_components/cta";
 import Faq from "./_components/faq";
 import Gallery from "./_components/gallery";
 import Hero from "./_components/hero";
@@ -22,7 +22,21 @@ export default function page() {
       <OngoingProjects />
       <BlogPreview />
       <Faq />
-      <CTA />
+      <CallToAction
+        title="Precision. Stewardship. Legacy."
+        description="Join the circle of property owners who trust Dimora to protect and elevate their architectural investments through thoughtful management and long-term stewardship."
+        buttons={[
+          {
+            label: "Landowners",
+            href: "#contact",
+          },
+          {
+            label: "Clients",
+            href: "#contact",
+            variant: "secondary",
+          },
+        ]}
+      />
     </>
   );
 }
