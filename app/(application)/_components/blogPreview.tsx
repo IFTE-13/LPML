@@ -68,7 +68,7 @@ export default function BlogPreview() {
               Insights
             </p>
             <h2 className="font-serif text-4xl leading-[1.1] tracking-tight text-foreground md:text-5xl">
-              From the Dimora journal
+              From the Livora journal
             </h2>
           </div>
 

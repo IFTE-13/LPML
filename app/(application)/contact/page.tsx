@@ -25,8 +25,8 @@ const contactDetails = [
   {
     icon: Mail,
     label: "Email",
-    value: "info@dimora.nl",
-    href: "mailto:info@dimora.nl",
+    value: "info@livora.nl",
+    href: "mailto:info@livora.nl",
   },
   {
     icon: MapPin,
@@ -203,7 +203,7 @@ export default function ContactPage() {
             <div className="grid lg:grid-cols-[1.5fr_0.8fr]">
               <iframe
                 src={mapEmbedSrc}
-                className="h-[450px] w-full"
+                className="h-112.5 w-full"
                 loading="lazy"
                 title="Office location"
               />

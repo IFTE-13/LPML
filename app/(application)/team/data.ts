@@ -12,7 +12,7 @@ export const leadership: LeadershipMember[] = [
     photo: me,
     bio: "20+ years transforming property management with a focus on long-term stewardship and client relationships.",
     linkedin: "#",
-    email: "sophia@dimora.nl",
+    email: "sophia@livora.nl",
   },
   {
     name: "James Anderson",
@@ -20,7 +20,7 @@ export const leadership: LeadershipMember[] = [
     photo: one,
     bio: "15+ years of financial expertise driving sustainable growth and investment strategies.",
     linkedin: "#",
-    email: "james@dimora.nl",
+    email: "james@livora.nl",
   },
   {
     name: "Dr. Maria Garcia",
@@ -28,7 +28,7 @@ export const leadership: LeadershipMember[] = [
     photo: two,
     bio: "12+ years in proptech, leading digital innovation and AI-driven property solutions.",
     linkedin: "#",
-    email: "maria@dimora.nl",
+    email: "maria@livora.nl",
   },
 ];
 
@@ -44,7 +44,7 @@ export const departments: Department[] = [
         photo: three,
         specialty: "Maintenance operations & tenant relations",
         experience: "12 years",
-        email: "daniel@dimora.nl",
+        email: "daniel@livora.nl",
         linkedin: "#",
       },
       {
@@ -53,7 +53,7 @@ export const departments: Department[] = [
         photo: me,
         specialty: "Property inspections & lease management",
         experience: "8 years",
-        email: "emma@dimora.nl",
+        email: "emma@livora.nl",
         linkedin: "#",
       },
     ],
@@ -69,7 +69,7 @@ export const departments: Department[] = [
         photo: two,
         specialty: "Market analysis & property valuations",
         experience: "15 years",
-        email: "mireille@dimora.nl",
+        email: "mireille@livora.nl",
         linkedin: "#",
       },
       {
@@ -78,7 +78,7 @@ export const departments: Department[] = [
         photo: one,
         specialty: "Data analytics & market forecasting",
         experience: "6 years",
-        email: "tomas@dimora.nl",
+        email: "tomas@livora.nl",
         linkedin: "#",
       },
     ],
@@ -94,7 +94,7 @@ export const departments: Department[] = [
         photo: three,
         specialty: "Luxury residential & commercial sales",
         experience: "18 years",
-        email: "lisa@dimora.nl",
+        email: "lisa@livora.nl",
         linkedin: "#",
       },
       {
@@ -103,7 +103,7 @@ export const departments: Department[] = [
         photo: me,
         specialty: "First-time buyers & investment",
         experience: "7 years",
-        email: "michael@dimora.nl",
+        email: "michael@livora.nl",
         linkedin: "#",
       },
     ],
@@ -119,7 +119,7 @@ export const departments: Department[] = [
         photo: two,
         specialty: "Residential design & space planning",
         experience: "14 years",
-        email: "sarah@dimora.nl",
+        email: "sarah@livora.nl",
         linkedin: "#",
       },
       {
@@ -128,7 +128,7 @@ export const departments: Department[] = [
         photo: one,
         specialty: "Urban planning & development",
         experience: "10 years",
-        email: "robert@dimora.nl",
+        email: "robert@livora.nl",
         linkedin: "#",
       },
     ],

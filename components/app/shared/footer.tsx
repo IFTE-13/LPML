@@ -4,6 +4,7 @@ import { Separator } from "@/components/ui/separator";
 const navLinks = [
   { label: "About", href: "/about" },
   { label: "Projects", href: "/projects" },
+  { label: "Team", href: "/team" },
   { label: "Career", href: "/career" },
   { label: "Contact", href: "/contact" },
 ];
@@ -26,7 +27,7 @@ export function Footer() {
               href="/"
               className="font-serif text-5xl leading-none tracking-tight text-foreground sm:text-6xl md:text-7xl"
             >
-              Dimora
+              Livora
             </Link>
 
             <div className="mt-10 flex flex-wrap gap-x-16 gap-y-8 md:mt-16">
@@ -83,8 +84,8 @@ export function Footer() {
                   </Link>
                 </p>
                 <p className="text-sm tracking-tight text-muted-foreground">
-                  <Link href="mailto:dimora.pml@gmail.com" className="transition-colors hover:text-foreground">
-                    dimora.pml@gmail.com
+                  <Link href="mailto:livora.pml@gmail.com" className="transition-colors hover:text-foreground">
+                    livora.pml@gmail.com
                   </Link>
                 </p>
               </div>
@@ -113,7 +114,7 @@ export function Footer() {
             {/* opening hours */}
             <div className="mt-10 md:mt-12">
               <p className="text-xs font-semibold uppercase tracking-[0.3em] text-accent md:text-right">
-                Why DIMORA?
+                Why LIVORA?
               </p>
               <dl className="mt-5 md:ml-auto space-y-1.5 w-3/4 text-justify">
                 Two decades of stewardship across residential and commercial portfolios — built on transparency, responsive management, and a long-term view of every property we touch.
@@ -126,7 +127,7 @@ export function Footer() {
 
         <div className="flex flex-col gap-4 text-xs text-muted-foreground sm:flex-row sm:items-center sm:justify-between">
           <p>Made by Mohammed Iftekhar</p>
-          <p>© {new Date().getFullYear()} Dimora. All rights reserved</p>
+          <p>© {new Date().getFullYear()} Livora. All rights reserved</p>
           <div className="flex gap-6">
             <Link href="/privacybeleid" className="transition-colors hover:text-foreground">
               Privacy Policies

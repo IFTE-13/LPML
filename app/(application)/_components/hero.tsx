@@ -67,7 +67,7 @@ export default function Hero() {
 
           <div className="mt-10 flex flex-wrap items-center gap-6">
             <a
-              href="#portfolio"
+              href="/about"
               className="group inline-flex items-center gap-2 bg-primary px-7 py-3.5 text-sm font-medium text-primary-foreground transition-colors hover:bg-accent hover:text-accent-foreground"
             >
               View the portfolio

@@ -10,9 +10,9 @@ export const faqs = [
       "Once you find a property you're interested in, you can request a viewing directly from the listing page or by contacting our team. We typically arrange viewings within 2–3 business days.",
   },
   {
-    question: "We already work with an agent. Why would we need Dimora?",
+    question: "We already work with an agent. Why would we need Livora?",
     answer:
-      "Dimora isn't just brokerage — we offer end-to-end stewardship, including ongoing management, maintenance coordination, and valuation services that most single-transaction agents don't provide.",
+      "Livora isn't just brokerage — we offer end-to-end stewardship, including ongoing management, maintenance coordination, and valuation services that most single-transaction agents don't provide.",
   },
   {
     question: "Do you handle property valuations (taxaties)?",

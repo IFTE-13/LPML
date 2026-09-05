@@ -15,7 +15,6 @@ import {
 } from "@/components/ui/sheet";
 import { Button } from "@/components/ui/button";
 import { ThemeSwitcher } from "@/components/theme-switcher";
-import DimoraIcon from "@/components/logo";
 
 interface NavItem {
   label: string;
@@ -30,10 +29,8 @@ interface SocialLink {
 
 const navItems: NavItem[] = [
   { label: "About", href: "/about" },
-  { label: "Projects", href: "#/projects" },
-  { label: "Gallery", href: "/gallery" },
+  { label: "Projects", href: "/projects" },
   { label: "Team", href: "/team" },
-  { label: "Career", href: "/career" },
   { label: "Connect", href: "/connect" },
   { label: "Contact", href: "/contact" },
 ];
@@ -74,17 +71,13 @@ export function Navbar() {
             : "bg-background/0 backdrop-blur-0"
         )}
       >
-        {/* Logo */}
-        <Link href="/" className="flex items-center gap-2.5">
-          <DimoraIcon className="h-9 w-auto sm:h-10" />
-          <div className="flex flex-col justify-center leading-none">
-            <span className="text-xl font-bold tracking-tight text-foreground sm:text-2xl">
-              DIMORA
-            </span>
-            <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground sm:text-[11px] sm:tracking-[0.25em]">
-              Property Management<span className="hidden sm:inline"> Limited</span>
-            </span>
-          </div>
+        <Link href="/" className="flex flex-col leading-none">
+          <span className="text-xl font-bold tracking-tight text-foreground sm:text-2xl">
+            LIVORA
+          </span>
+          <span className="mt-1 text-[10px] font-medium uppercase tracking-[0.2em] text-muted-foreground sm:text-[11px] sm:tracking-[0.25em]">
+            Property Management<span className="hidden sm:inline"> Limited</span>
+          </span>
         </Link>
 
         {/* Desktop Navigation */}

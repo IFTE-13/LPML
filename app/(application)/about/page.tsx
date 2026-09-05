@@ -13,9 +13,9 @@ export default function page() {
   return (
     <>
         <PageHero
-          badge="About Dimora"
+          badge="About Livora"
           title="Built on precision. Sustained by stewardship."
-          description="Dimora exists to protect the long-term value of every property we touch — through careful management, transparent guidance, and a standard of care that doesn't waver once the deal is signed."
+          description="Livora exists to protect the long-term value of every property we touch — through careful management, transparent guidance, and a standard of care that doesn't waver once the deal is signed."
         />
         <OurWhy/>
         <KeyStats/>

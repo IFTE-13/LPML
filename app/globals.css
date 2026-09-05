@@ -50,7 +50,7 @@
 }
 
 :root {
-  /* Dimora palette — warm paper, ink, slate, muted bronze.
+  /* Livora palette — warm paper, ink, slate, muted bronze.
      Converted from the hero design: #FAFAF8 / #15171A / #5B6168 / #8C7B5E */
   --background: oklch(0.985 0.003 106.4);   /* warm paper white */
   --foreground: oklch(0.204 0.007 258.4);   /* ink */
@@ -75,7 +75,7 @@
   --chart-3: oklch(0.439 0 0);
   --chart-4: oklch(0.371 0 0);
   --chart-5: oklch(0.269 0 0);
-  --radius: 0rem; /* Dimora uses square corners throughout — drafting-table precision */
+  --radius: 0rem; /* Livora uses square corners throughout — drafting-table precision */
   --sidebar: oklch(0.985 0.003 106.4);
   --sidebar-foreground: oklch(0.204 0.007 258.4);
   --sidebar-primary: oklch(0.204 0.007 258.4);

@@ -30,7 +30,7 @@ export function LeadershipSpotlight({
           </p>
 
           <h2 className="font-serif text-4xl text-foreground md:text-5xl">
-            Guiding Dimora forward
+            Guiding Livora forward
           </h2>
 
           <p className="mt-4 max-w-2xl text-muted-foreground">
@@ -51,7 +51,7 @@ export function LeadershipSpotlight({
           >
             {/* Image */}
             <div className="relative">
-              <div className="relative h-[400px] lg:h-[500px] overflow-hidden bg-card">
+              <div className="relative h-100 lg:h-125 overflow-hidden bg-card">
                 <Image
                   src={selected.photo}
                   alt={selected.name}

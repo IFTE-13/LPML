@@ -20,8 +20,8 @@ const fraunces = Fraunces({
 
 export const metadata: Metadata = {
   title: {
-    default: "Dimora Property Management Limited",
-    template: "%s | DPML",
+    default: "Livora Property Management Limited",
+    template: "%s | LPML",
   },
   description: "Residential and commercial property management.",
 }
@@ -39,14 +39,14 @@ export default function RootLayout({
     >
       <body >
         <ThemeProvider
-            attribute="class"
-            defaultTheme="system"
-            enableSystem
-            disableTransitionOnChange
-          >
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
           {children}
         </ThemeProvider>
-        </body>
+      </body>
     </html>
   );
 }

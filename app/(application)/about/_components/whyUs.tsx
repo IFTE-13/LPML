@@ -38,18 +38,18 @@ export default function OurWhy() {
             </p>
 
             <h2 className="font-serif text-3xl leading-[1.15] tracking-tight text-foreground md:text-4xl lg:text-5xl">
-              We started Dimora because property deserved better stewards.
+              We started Livora because property deserved better stewards.
             </h2>
 
             <div className="mt-6 space-y-4 text-base leading-relaxed text-muted-foreground">
               <p>
-                Dimora was founded in 2004, after years of watching property
+                Livora was founded in 2004, after years of watching property
                 owners hand over their most valuable assets to agents who
                 treated each transaction as the finish line — not the
                 beginning of a relationship.
               </p>
               <p>
-                We built Dimora around a different premise: that good
+                We built Livora around a different premise: that good
                 stewardship doesn&apos;t end at the signing table. It
                 continues through every season of ownership — maintenance,
                 tenancy, valuation, and the quiet, ongoing work of protecting

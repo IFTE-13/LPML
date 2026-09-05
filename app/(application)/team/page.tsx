@@ -50,7 +50,7 @@ export default function TeamPage() {
         buttons={[
           {
             label: "View open positions",
-            href: "/careers",
+            href: "/career",
           },
         ]}
       />

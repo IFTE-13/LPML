@@ -17,7 +17,7 @@ export default function FounderSection() {
           </p>
 
           <h2 className="mt-4 font-serif text-4xl leading-tight text-foreground md:text-5xl">
-            The person behind Dimora.
+            The person behind Livora.
           </h2>
 
           <p className="mt-3 text-muted-foreground">
@@ -41,12 +41,12 @@ export default function FounderSection() {
               </h3>
 
               <p className="mt-4 text-xl text-muted-foreground">
-                I&apos;m Mohammed Iftekhar, founder of Dimora.
+                I&apos;m Mohammed Iftekhar, founder of Livora.
               </p>
 
               <div className="mt-8 space-y-6 text-lg leading-relaxed text-muted-foreground">
                 <p>
-                  Dimora was created with a simple belief: exceptional
+                  Livora was created with a simple belief: exceptional
                   properties deserve exceptional stewardship.
                 </p>
 
@@ -64,7 +64,7 @@ export default function FounderSection() {
                 </p>
 
                 <p>
-                  Today, Dimora combines traditional property expertise with
+                  Today, Livora combines traditional property expertise with
                   modern systems, helping clients make informed decisions while
                   preserving the character and integrity of their investments.
                 </p>
@@ -76,7 +76,7 @@ export default function FounderSection() {
               {/* CTA */}
               <div className="mt-10 flex flex-wrap items-center gap-6">
                 <a
-                  href="#contact"
+                  href="/contact"
                   className="group inline-flex items-center gap-2 bg-foreground px-6 py-3 text-sm font-medium text-background transition-colors hover:bg-accent hover:text-accent-foreground"
                 >
                   Let&apos;s Talk
@@ -90,7 +90,7 @@ export default function FounderSection() {
                   </p>
 
                   <p className="mt-1 text-sm text-foreground">
-                    founder@dimora.nl
+                    founder@livora.nl
                   </p>
                 </div>
               </div>
@@ -100,7 +100,7 @@ export default function FounderSection() {
             <div className="relative flex items-end justify-center">
               {/* Accent Glow */}
               <div className="absolute bottom-0 h-96 w-96 rounded-full bg-accent/10 blur-3xl" />
-            {/** Use transparent image for this section */}
+              {/** Use transparent image for this section */}
               <div className="relative h-3/4 w-full">
                 <Image
                   src={founder}

@@ -1,5 +1,5 @@
 // app/components/logo.tsx
-export default function DimoraIcon({
+export default function LivoraIcon({
   className = "",
 }: {
   className?: string;
